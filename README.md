@@ -1,16 +1,15 @@
 # MScBusinessAnalyticsMajorProject
-EFFECTIVENESS OF IRELAND'S RENEWABLE ENERGY STRATEGY: A HISTORICAL REVIEW AND FUTURE OUTLOOK
+GROUP 25 - MSc Business Analytics Major Project
+Titile - EFFECTIVENESS OF IRELAND'S RENEWABLE ENERGY STRATEGY: A HISTORICAL REVIEW AND FUTURE OUTLOOK
 
+As part of this comprehensive analysis on the effectiveness of Ireland's renewable energy strategy, we have developed Python code to support our findings. The code repository includes the following components:
 
-This report presents an analysis of Ireland's energy sector, focusing on analyzing renewable and non-renewable energy production, total energy consumption, the Building Energy Rating (BER) of construction on energy efficiency, and a forecast for sustainable energy usage. The study analyses historical data to evaluate the influence of government interventions on the growth of renewable energy sources in production and adoption by consumers across different sectors. 
+Dataset Cleaner: A code snippet that handles data preprocessing tasks such as removing duplicates, handling missing values, and standardizing formats. This ensures the data used for analysis is clean and ready for further processing.
 
-Descriptive analyses and a predictive model are employed to determine the trajectory of renewable energy production and consumption and assess the feasibility of meeting future renewable energy goals set by the Irish Government. 
+Descriptive Analysis: Code for performing descriptive analyses on Ireland's energy sector. This includes visualizations and statistical calculations to analyze renewable and non-renewable energy production, total energy consumption, and the Building Energy Rating (BER) of construction on energy efficiency. The descriptive analysis provides insights into historical trends and the impact of government interventions on renewable energy production and adoption.
 
-The findings of this study, may inform policymakers and stakeholders about the effectiveness of current policies and influence future strategies for promoting renewable energy.
+Energy Production Model and Prediction: Python code utilizing RandomForest and XGBoosting regressor models to analyze Ireland's energy production and build prediction models. These models identify future trends and predict energy production patterns, enabling us to assess the feasibility of meeting future renewable energy goals set by the Irish Government.
 
-The repository contains python code explaining the below,
-1. Exploratory Data Analysis 
-2. Energy Production Model and Prediction using RandomForest Regressor Model and Energy Production Model and Prediction using XGBoosting Regressor Model - An analysis is performed on the Ireland's Energy Production and a prediction model is built using XGBoost and RandomForest regressor model to identify the future trends and prediction
-3. Building Electricity Rating Model and Prediction using Random Forest Regressor Model-  An analysis is performed on the BER rating's of buildings in Ireland, a prediction model is built to identify the future trends and prediction
-4. Time Series Anlaysis on renewable energy production and consumption
-5. BER and Future energy production analysis and prediction using SARIMA model
+Building Electricity Rating Model and Prediction: Code for analyzing the BER ratings of buildings in Ireland and building prediction models. These models forecast future trends in building energy efficiency, providing insights into the potential for improving energy efficiency in the construction sector.
+
+The code repository also includes a SARIMA (Seasonal Autoregressive Integrated Moving Average) prediction model. This model is used to forecast future trends and patterns in sustainable energy usage in Ireland. By incorporating the SARIMA model into our analysis, we can provide more accurate predictions and assess the feasibility of meeting the future renewable energy goals set by the Irish Government. The SARIMA model takes into account the seasonality and trend in the data, enabling us to capture the complex dynamics of sustainable energy usage over time. This predictive capability enhances our understanding of Ireland's energy ecosystem and aids in formulating informed decisions for the promotion of renewable energy.
